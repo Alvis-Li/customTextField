@@ -32,16 +32,27 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="placeholder"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ilI-DI-NVY" customClass="ComboBox">
+                                <rect key="frame" x="182" y="308" width="64" height="21"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="4bm-SD-oho"/>
+                                    <constraint firstAttribute="height" constant="21" id="PX4-Wl-Zzo"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="08i-1W-UE4" secondAttribute="trailing" constant="35" id="GFe-yB-qLW"/>
                             <constraint firstAttribute="centerY" secondItem="08i-1W-UE4" secondAttribute="centerY" constant="67" id="L0z-wE-P4S"/>
+                            <constraint firstAttribute="centerX" secondItem="ilI-DI-NVY" secondAttribute="centerX" constant="-54" id="jS0-7M-WgK"/>
+                            <constraint firstAttribute="centerY" secondItem="ilI-DI-NVY" secondAttribute="centerY" constant="-78.5" id="roY-bX-u4a"/>
                             <constraint firstItem="08i-1W-UE4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="110" id="tPP-z4-0ag"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="boxView" destination="ilI-DI-NVY" id="T66-AO-M93"/>
                         <outlet property="customTextField" destination="08i-1W-UE4" id="rdH-7j-sg4"/>
                     </connections>
                 </viewController>

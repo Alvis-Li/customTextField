@@ -26,6 +26,8 @@
 		5A0188C61BC154BB00A7B930 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0188B81BC154BB00A7B930 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		5A0188C71BC154BB00A7B930 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0188BA1BC154BB00A7B930 /* View+MASAdditions.m */; };
 		5A0188C81BC154BB00A7B930 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0188BD1BC154BB00A7B930 /* ViewController+MASAdditions.m */; };
+		5A0B2C811BC24EAB004CD87F /* ComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B2C801BC24EAB004CD87F /* ComboBox.m */; };
+		5A0B2C831BC25089004CD87F /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A0B2C821BC25089004CD87F /* triangle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,9 @@
 		5A0188BB1BC154BB00A7B930 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		5A0188BC1BC154BB00A7B930 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		5A0188BD1BC154BB00A7B930 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		5A0B2C7F1BC24EAB004CD87F /* ComboBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComboBox.h; sourceTree = "<group>"; };
+		5A0B2C801BC24EAB004CD87F /* ComboBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComboBox.m; sourceTree = "<group>"; };
+		5A0B2C821BC25089004CD87F /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = triangle.png; path = Masonry/triangle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,11 +126,14 @@
 		5A0188791BC1477800A7B930 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				5A0B2C821BC25089004CD87F /* triangle.png */,
 				5A0188A31BC154BB00A7B930 /* Masonry */,
 				5A01887E1BC1477800A7B930 /* AppDelegate.h */,
 				5A01887F1BC1477800A7B930 /* AppDelegate.m */,
 				5A0188811BC1477800A7B930 /* ViewController.h */,
 				5A0188821BC1477800A7B930 /* ViewController.m */,
+				5A0B2C7F1BC24EAB004CD87F /* ComboBox.h */,
+				5A0B2C801BC24EAB004CD87F /* ComboBox.m */,
 				5A0188A01BC1485700A7B930 /* customTextField.h */,
 				5A0188A11BC1485700A7B930 /* customTextField.m */,
 				5A0188841BC1477800A7B930 /* Main.storyboard */,
@@ -276,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A0188BE1BC154BB00A7B930 /* Info.plist in Resources */,
+				5A0B2C831BC25089004CD87F /* triangle.png in Resources */,
 				5A0188861BC1477800A7B930 /* Main.storyboard in Resources */,
 				5A01888B1BC1477800A7B930 /* LaunchScreen.xib in Resources */,
 				5A0188881BC1477800A7B930 /* Images.xcassets in Resources */,
@@ -299,6 +308,7 @@
 				5A0188C11BC154BB00A7B930 /* MASConstraintMaker.m in Sources */,
 				5A0188A21BC1485700A7B930 /* customTextField.m in Sources */,
 				5A0188831BC1477800A7B930 /* ViewController.m in Sources */,
+				5A0B2C811BC24EAB004CD87F /* ComboBox.m in Sources */,
 				5A0188C01BC154BB00A7B930 /* MASConstraint.m in Sources */,
 				5A0188C81BC154BB00A7B930 /* ViewController+MASAdditions.m in Sources */,
 				5A0188C21BC154BB00A7B930 /* MASLayoutConstraint.m in Sources */,
@@ -506,6 +516,7 @@
 				5A01889C1BC1477800A7B930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A01889D1BC1477800A7B930 /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +525,7 @@
 				5A01889F1BC1477800A7B930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

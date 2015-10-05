@@ -36,7 +36,9 @@
     }
     return self;
 }
-
+-(void)drawRect:(CGRect)rect{
+    [super drawRect:rect];
+}
 -(void)initSubViews{
     self.titleLabel = [UILabel new];
     [self addSubview:_titleLabel];

@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 #import "customTextField.h"
+#import "ComboBox.h"
 @interface ViewController ()<customTextFieldDelegate>
+@property (strong, nonatomic) IBOutlet ComboBox *boxView;
 @property (strong, nonatomic) IBOutlet customTextField *customTextField;
 
 @end
@@ -20,6 +22,9 @@
     // Do any additional setup after loading the view, typically from a nib.
    // [_customTextField initSubViews];
     _customTextField.delegate = self;
+    _boxView.comboBoxArray = @[@"1",@"2",@"3",@"4",@"5",@"6"];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
